@@ -1,0 +1,6 @@
+states = [q1, q2, q3, q4]
+alphabet = [a, b]
+starting_state = q1
+accepting_states = [q1, q2]
+transitions =
+    q2,b = q2;

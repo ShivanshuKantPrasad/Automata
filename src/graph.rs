@@ -2,9 +2,9 @@ use crate::dfa::DFA;
 use std::collections::HashMap;
 
 #[derive(Debug, PartialEq)]
-struct Graph {
-    nodes: Vec<String>,
-    adj_mat: HashMap<(String, String), Vec<String>>,
+pub struct Graph {
+    pub nodes: Vec<String>,
+    pub adj_mat: HashMap<(String, String), Vec<String>>,
 }
 
 impl From<DFA> for Graph {

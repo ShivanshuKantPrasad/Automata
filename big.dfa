@@ -1,0 +1,15 @@
+states = [q1,q2,q3,q4,q5]
+alphabet = [a,b]
+starting_state =  q3
+accepting_states = [q5]
+transitions =
+    q1,a = q2;
+    q1,b = q1;
+    q2,a = q2;
+    q2,b = q5;
+    q3,a = q2;
+    q3,b = q3;
+    q4,a = q2;
+    q4,b = q4;
+    q5,a = q1;
+    q5,b = q4;
